@@ -1,0 +1,42 @@
+[0.000000] (-) TimerEvent: {}
+[0.000248] (-) JobUnselected: {'identifier': 'fishbot'}
+[0.000566] (maze_nav) JobQueued: {'identifier': 'maze_nav', 'dependencies': OrderedDict()}
+[0.000610] (maze_nav) JobStarted: {'identifier': 'maze_nav'}
+[0.099767] (-) TimerEvent: {}
+[0.200193] (-) TimerEvent: {}
+[0.300538] (-) TimerEvent: {}
+[0.400830] (-) TimerEvent: {}
+[0.496004] (maze_nav) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/maze_nav', 'build', '--build-base', '/home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build', 'install', '--record', '/home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/install.log', '--install-scripts', '$base/lib/maze_nav', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/moyou/allworkspace/chap6_robot/chap6_ws/src/maze_nav', 'env': OrderedDict([('USER', 'moyou'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('DSH_SESSION_ID', 'session-5b361865-1c7f-4be9-afbc-f68c207d4e17'), ('HOME', '/home/moyou'), ('OLDPWD', '/home/moyou/allworkspace/chap6_robot/chap6_ws/src/maze_nav'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'moyou'), ('NAME', 'LAPTOP-IA55DGEQ'), ('WSL_INTEROP', '/run/WSL/443675_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/d/ADS/ADSSETUP/Developer Center Launcher:/mnt/c/Infineon/LauncherService:/mnt/c/Program Files/Bandizip/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/nodejs/:/mnt/d/node-v18.20.8-win-x64/node.exe:/mnt/c/Windows/System32/Miniconda3-latest-Windows-x86_64.exe:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Lenovo/.local/bin:/mnt/c/Users/Lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/d/vscode/Microsoft VS Code/bin:/mnt/c/Users/Lenovo/Infineon/LauncherService:/mnt/c/Users/Lenovo/AppData/Roaming/npm:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DSH_HOME', '/mnt/c/Users/Lenovo/.dsh'), ('SHELL', '/bin/bash'), ('DSH_SHELL', '1'), ('PWD', '/home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.501162] (-) TimerEvent: {}
+[0.601395] (-) TimerEvent: {}
+[0.685593] (maze_nav) StdoutLine: {'line': b'running egg_info\n'}
+[0.686363] (maze_nav) StdoutLine: {'line': b'writing ../../build/maze_nav/maze_nav.egg-info/PKG-INFO\n'}
+[0.686800] (maze_nav) StdoutLine: {'line': b'writing dependency_links to ../../build/maze_nav/maze_nav.egg-info/dependency_links.txt\n'}
+[0.687087] (maze_nav) StdoutLine: {'line': b'writing entry points to ../../build/maze_nav/maze_nav.egg-info/entry_points.txt\n'}
+[0.687178] (maze_nav) StdoutLine: {'line': b'writing requirements to ../../build/maze_nav/maze_nav.egg-info/requires.txt\n'}
+[0.687283] (maze_nav) StdoutLine: {'line': b'writing top-level names to ../../build/maze_nav/maze_nav.egg-info/top_level.txt\n'}
+[0.688758] (maze_nav) StdoutLine: {'line': b"reading manifest file '../../build/maze_nav/maze_nav.egg-info/SOURCES.txt'\n"}
+[0.689547] (maze_nav) StdoutLine: {'line': b"writing manifest file '../../build/maze_nav/maze_nav.egg-info/SOURCES.txt'\n"}
+[0.689660] (maze_nav) StdoutLine: {'line': b'running build\n'}
+[0.689750] (maze_nav) StdoutLine: {'line': b'running build_py\n'}
+[0.690017] (maze_nav) StdoutLine: {'line': b'copying maze_nav/explorer.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build/lib/maze_nav\n'}
+[0.690315] (maze_nav) StdoutLine: {'line': b'running install\n'}
+[0.690539] (maze_nav) StdoutLine: {'line': b'running install_lib\n'}
+[0.691259] (maze_nav) StdoutLine: {'line': b'copying /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build/lib/maze_nav/explorer.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav\n'}
+[0.692149] (maze_nav) StdoutLine: {'line': b'byte-compiling /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav/explorer.py to explorer.cpython-310.pyc\n'}
+[0.695579] (maze_nav) StdoutLine: {'line': b'running install_data\n'}
+[0.695869] (maze_nav) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.697259] (maze_nav) StdoutLine: {'line': b"removing '/home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[0.697748] (maze_nav) StdoutLine: {'line': b'Copying ../../build/maze_nav/maze_nav.egg-info to /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav-0.1.0-py3.10.egg-info\n'}
+[0.698694] (maze_nav) StdoutLine: {'line': b'running install_scripts\n'}
+[0.701514] (-) TimerEvent: {}
+[0.716602] (maze_nav) StdoutLine: {'line': b'Installing generate_maze script to /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/maze_nav\n'}
+[0.717102] (maze_nav) StdoutLine: {'line': b'Installing go_to_goal script to /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/maze_nav\n'}
+[0.717186] (maze_nav) StdoutLine: {'line': b'Installing maze_explorer script to /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/maze_nav\n'}
+[0.717261] (maze_nav) StdoutLine: {'line': b'Installing maze_navigator script to /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/maze_nav\n'}
+[0.717618] (maze_nav) StdoutLine: {'line': b'Installing qt_goal_gui script to /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/maze_nav\n'}
+[0.717762] (maze_nav) StdoutLine: {'line': b'Installing verify_paths script to /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/maze_nav\n'}
+[0.717841] (maze_nav) StdoutLine: {'line': b"writing list of installed files to '/home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/install.log'\n"}
+[0.736943] (maze_nav) CommandEnded: {'returncode': 0}
+[0.748061] (maze_nav) JobEnded: {'identifier': 'maze_nav', 'rc': 0}
+[0.748965] (-) EventReactorShutdown: {}

@@ -1,0 +1,26 @@
+[0.578s] Invoking command in '/home/moyou/allworkspace/chap6_robot/chap6_ws/src/maze_nav': PYTHONPATH=/home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_nav build --build-base /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build install --record /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/install.log --install-scripts $base/lib/maze_nav --single-version-externally-managed install_data
+[0.794s] running egg_info
+[0.795s] writing ../../build/maze_nav/maze_nav.egg-info/PKG-INFO
+[0.796s] writing dependency_links to ../../build/maze_nav/maze_nav.egg-info/dependency_links.txt
+[0.796s] writing entry points to ../../build/maze_nav/maze_nav.egg-info/entry_points.txt
+[0.796s] writing requirements to ../../build/maze_nav/maze_nav.egg-info/requires.txt
+[0.796s] writing top-level names to ../../build/maze_nav/maze_nav.egg-info/top_level.txt
+[0.799s] reading manifest file '../../build/maze_nav/maze_nav.egg-info/SOURCES.txt'
+[0.800s] writing manifest file '../../build/maze_nav/maze_nav.egg-info/SOURCES.txt'
+[0.800s] running build
+[0.800s] running build_py
+[0.800s] copying maze_nav/go_to_goal.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build/lib/maze_nav
+[0.800s] running install
+[0.801s] running install_lib
+[0.801s] copying /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build/lib/maze_nav/go_to_goal.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav
+[0.802s] byte-compiling /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav/go_to_goal.py to go_to_goal.cpython-310.pyc
+[0.803s] running install_data
+[0.804s] copying launch/burger_goal.launch.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/maze_nav/launch
+[0.804s] running install_egg_info
+[0.805s] removing '/home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav-0.1.0-py3.10.egg-info' (and everything under it)
+[0.806s] Copying ../../build/maze_nav/maze_nav.egg-info to /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav-0.1.0-py3.10.egg-info
+[0.806s] running install_scripts
+[0.828s] Installing generate_maze script to /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/maze_nav
+[0.829s] Installing go_to_goal script to /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/maze_nav
+[0.829s] writing list of installed files to '/home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/install.log'
+[0.854s] Invoked command in '/home/moyou/allworkspace/chap6_robot/chap6_ws/src/maze_nav' returned '0': PYTHONPATH=/home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_nav build --build-base /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build install --record /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/install.log --install-scripts $base/lib/maze_nav --single-version-externally-managed install_data

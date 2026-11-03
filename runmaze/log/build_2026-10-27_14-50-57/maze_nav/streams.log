@@ -1,0 +1,56 @@
+[0.523s] Invoking command in '/home/moyou/allworkspace/chap6_robot/chap6_ws/src/maze_nav': PYTHONPATH=/home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_nav build --build-base /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build install --record /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/install.log --install-scripts $base/lib/maze_nav --single-version-externally-managed install_data
+[0.712s] running egg_info
+[0.712s] writing ../../build/maze_nav/maze_nav.egg-info/PKG-INFO
+[0.713s] writing dependency_links to ../../build/maze_nav/maze_nav.egg-info/dependency_links.txt
+[0.713s] writing entry points to ../../build/maze_nav/maze_nav.egg-info/entry_points.txt
+[0.713s] writing requirements to ../../build/maze_nav/maze_nav.egg-info/requires.txt
+[0.713s] writing top-level names to ../../build/maze_nav/maze_nav.egg-info/top_level.txt
+[0.715s] reading manifest file '../../build/maze_nav/maze_nav.egg-info/SOURCES.txt'
+[0.716s] writing manifest file '../../build/maze_nav/maze_nav.egg-info/SOURCES.txt'
+[0.716s] running build
+[0.716s] running build_py
+[0.716s] running install
+[0.717s] running install_lib
+[0.717s] creating /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav
+[0.717s] copying /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build/lib/maze_nav/generate_maze.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav
+[0.718s] copying /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build/lib/maze_nav/explorer.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav
+[0.718s] copying /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build/lib/maze_nav/maze_navigator.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav
+[0.718s] copying /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build/lib/maze_nav/go_to_goal.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav
+[0.718s] copying /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build/lib/maze_nav/maze.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav
+[0.718s] copying /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build/lib/maze_nav/verify_paths.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav
+[0.718s] copying /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build/lib/maze_nav/qt_goal_gui.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav
+[0.718s] copying /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build/lib/maze_nav/__init__.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav
+[0.719s] byte-compiling /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav/generate_maze.py to generate_maze.cpython-310.pyc
+[0.720s] byte-compiling /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav/explorer.py to explorer.cpython-310.pyc
+[0.724s] byte-compiling /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav/maze_navigator.py to maze_navigator.cpython-310.pyc
+[0.725s] byte-compiling /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav/go_to_goal.py to go_to_goal.cpython-310.pyc
+[0.726s] byte-compiling /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav/maze.py to maze.cpython-310.pyc
+[0.728s] byte-compiling /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav/verify_paths.py to verify_paths.cpython-310.pyc
+[0.729s] byte-compiling /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav/qt_goal_gui.py to qt_goal_gui.cpython-310.pyc
+[0.732s] byte-compiling /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav/__init__.py to __init__.cpython-310.pyc
+[0.732s] running install_data
+[0.732s] creating /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/ament_index
+[0.732s] creating /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/ament_index/resource_index
+[0.732s] creating /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/ament_index/resource_index/packages
+[0.733s] copying resource/maze_nav -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/ament_index/resource_index/packages
+[0.733s] copying package.xml -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/maze_nav
+[0.733s] creating /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/maze_nav/launch
+[0.733s] copying launch/maze_burger.launch.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/maze_nav/launch
+[0.733s] copying launch/maze.launch.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/maze_nav/launch
+[0.734s] copying launch/burger_gui.launch.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/maze_nav/launch
+[0.734s] copying launch/maze_explore.launch.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/maze_nav/launch
+[0.734s] copying launch/burger.launch.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/maze_nav/launch
+[0.734s] copying launch/burger_goal.launch.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/maze_nav/launch
+[0.734s] creating /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/maze_nav/worlds
+[0.734s] copying worlds/empty.world -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/maze_nav/worlds
+[0.735s] running install_egg_info
+[0.737s] Copying ../../build/maze_nav/maze_nav.egg-info to /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav-0.1.0-py3.10.egg-info
+[0.738s] running install_scripts
+[0.757s] Installing generate_maze script to /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/maze_nav
+[0.757s] Installing go_to_goal script to /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/maze_nav
+[0.757s] Installing maze_explorer script to /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/maze_nav
+[0.757s] Installing maze_navigator script to /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/maze_nav
+[0.757s] Installing qt_goal_gui script to /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/maze_nav
+[0.758s] Installing verify_paths script to /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/maze_nav
+[0.758s] writing list of installed files to '/home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/install.log'
+[0.777s] Invoked command in '/home/moyou/allworkspace/chap6_robot/chap6_ws/src/maze_nav' returned '0': PYTHONPATH=/home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_nav build --build-base /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build install --record /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/install.log --install-scripts $base/lib/maze_nav --single-version-externally-managed install_data

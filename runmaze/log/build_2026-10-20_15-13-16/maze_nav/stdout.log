@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/maze_nav/maze_nav.egg-info
+writing ../../build/maze_nav/maze_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/maze_nav/maze_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/maze_nav/maze_nav.egg-info/entry_points.txt
+writing requirements to ../../build/maze_nav/maze_nav.egg-info/requires.txt
+writing top-level names to ../../build/maze_nav/maze_nav.egg-info/top_level.txt
+writing manifest file '../../build/maze_nav/maze_nav.egg-info/SOURCES.txt'
+reading manifest file '../../build/maze_nav/maze_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/maze_nav/maze_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build
+creating /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build/lib
+creating /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build/lib/maze_nav
+copying maze_nav/generate_maze.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build/lib/maze_nav
+copying maze_nav/maze.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build/lib/maze_nav
+copying maze_nav/__init__.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build/lib/maze_nav
+running install
+running install_lib
+creating /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav
+copying /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build/lib/maze_nav/generate_maze.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav
+copying /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build/lib/maze_nav/maze.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav
+copying /home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/build/lib/maze_nav/__init__.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav
+byte-compiling /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav/generate_maze.py to generate_maze.cpython-310.pyc
+byte-compiling /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav/maze.py to maze.cpython-310.pyc
+byte-compiling /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/ament_index
+creating /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/ament_index/resource_index
+creating /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/ament_index/resource_index/packages
+copying resource/maze_nav -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/ament_index/resource_index/packages
+copying package.xml -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/maze_nav
+creating /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/maze_nav/launch
+copying launch/maze.launch.py -> /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/share/maze_nav/launch
+running install_egg_info
+Copying ../../build/maze_nav/maze_nav.egg-info to /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/python3.10/site-packages/maze_nav-0.1.0-py3.10.egg-info
+running install_scripts
+Installing generate_maze script to /home/moyou/allworkspace/chap6_robot/chap6_ws/install/maze_nav/lib/maze_nav
+writing list of installed files to '/home/moyou/allworkspace/chap6_robot/chap6_ws/build/maze_nav/install.log'
