@@ -1,0 +1,24 @@
+# ---- colcon / ROS 2 构建产物 ----
+build/
+install/
+log/
+.ament_*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.pytest_cache/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- 运行时临时产物（Gazebo / ROS 日志、截图） ----
+*.log
+*.bag
+frame*.png

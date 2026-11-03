@@ -55,7 +55,8 @@ class Maze:
     # ------------------------------------------------------------------
     def _carve(self):
         """递归回溯：从 (0,0) 出发，随机走到没访问过的邻居并凿墙。"""
-        visited = [[False] * self.cols for _ in range(self.rows)]
+        # 按 [x][y] 存取，非方形迷宫（cols != rows）才不会越界
+        visited = [[False] * self.rows for _ in range(self.cols)]
         visited[0][0] = True
         stack = [(0, 0)]
 

@@ -106,6 +106,10 @@ def generate_launch_description():
         DeclareLaunchArgument('entity', default_value='burger'),
         DeclareLaunchArgument('gazebo_gui', default_value='true'),
         DeclareLaunchArgument('qt_gui', default_value='true'),
+        # spawn 位置：默认起点格心 (0.5, 0.5)，朝向 +x
+        DeclareLaunchArgument('x', default_value='0.5', description='出生点 x（米）'),
+        DeclareLaunchArgument('y', default_value='0.5', description='出生点 y（米）'),
+        DeclareLaunchArgument('yaw', default_value='0.0', description='出生朝向（弧度）'),
         DeclareLaunchArgument('speed', default_value='0.28', description='最大线速度 m/s'),
         OpaqueFunction(function=_setup),
     ])
